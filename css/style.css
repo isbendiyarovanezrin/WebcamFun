@@ -159,11 +159,11 @@ video {
 @media screen and (max-width: 700px) {
   #canvas {
     height: 70vh;
-    width: 94vw;
+    width: 93vw;
   }
 
   #images {
-    width: 94vw;
+    width: 93vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -171,7 +171,7 @@ video {
   }
 
   video {
-    width: 20rem;
+    width: 15rem;
   }
 }
 
