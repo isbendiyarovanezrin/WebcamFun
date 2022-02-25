@@ -1,4 +1,4 @@
-## Photo booth📸
+## Photo booth 📸
 
 ##### _"Photo booth" project built with HTML5, CSS3 and vanilla JavaScript._
 
@@ -22,7 +22,7 @@ npm start
 
 !["Photo booth" project screenshot](https://i.postimg.cc/Y9DZNStc/photo-booth.png "Sən də sına!😎")
 
-## 📝 License
+## License 📝
 
 ##### _Copyright © 2022 [Nəzrin İsbəndiyarova](https://github.com/isbendiyarovanezrin "Click me!🙂")._
 
