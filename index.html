@@ -23,19 +23,28 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- loader start -->
+    <div id="loadingDiv">
+      <div class="loader"></div>
+    </div>
+    <!-- loader end -->
+
     <div class="photo-booth">
       <div class="controls">
         <button id="btn">Take Photo</button>
       </div>
       <div class="main">
         <video id="player"></video>
-        <canvas id="canvas"> </canvas>
+        <canvas id="canvas"></canvas>
       </div>
       <div id="images"></div>
     </div>
 
     <audio src="sound/snap.mp3" id="snap" preload="auto"></audio>
     <audio src="sound/hello.mp3" id="hello" preload="auto"></audio>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- javascript -->
     <script src="js/script.js"></script>
