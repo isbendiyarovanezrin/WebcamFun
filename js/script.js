@@ -1,3 +1,5 @@
+"use strict";
+
 const btn = document.getElementById("btn");
 const video = document.getElementById("player");
 const images = document.getElementById("images");
