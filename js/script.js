@@ -57,3 +57,22 @@ function takePhoto() {
 getVideo();
 video.addEventListener("canplay", paintCanvas);
 btn.addEventListener("click", takePhoto);
+
+// loader
+$("html").css(
+  "overflow",
+  "hidden",
+  setTimeout(() => {
+    $("html").css("overflow-y", "visible");
+  }, 1700)
+);
+
+$(window).on("load", () => {
+  setTimeout(removeLoader, 1700);
+});
+
+function removeLoader() {
+  $("#loadingDiv").fadeOut(500, () => {
+    $("#loadingDiv").remove();
+  });
+}
