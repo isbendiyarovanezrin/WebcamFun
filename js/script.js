@@ -21,6 +21,7 @@ function getVideo() {
 }
 
 function paintCanvas() {
+  hello.currentTime = 1.5;
   hello.play();
   const width = video.videoWidth;
   const height = video.videoHeight;
