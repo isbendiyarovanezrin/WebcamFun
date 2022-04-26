@@ -1,6 +1,6 @@
 ## Photo booth 📸
 
-##### _"Photo booth" project built with HTML5, CSS3 and vanilla JavaScript._
+##### _"Photo booth" project built with HTML5, CSS3, jQuery and vanilla JavaScript._
 
 ##### _You can view the project [here](https://isbendiyarovanezrin.github.io/WebcamFun "Click me!😎")._
 
